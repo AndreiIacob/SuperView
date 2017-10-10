@@ -1,7 +1,7 @@
 # SuperView
 Project for getting data about several entities through the use of the Yelp data set.
 
-TODOs
+## TODOs
 
 [ ] Research other projects involving Yelp
     - Anda Buinoschi
