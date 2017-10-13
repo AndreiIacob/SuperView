@@ -27,8 +27,19 @@
     - ### [Oversampling with Bigram Multinomial Naive Bayes to Predict Yelp Review Star Classes](https://kevin11h.github.io/YelpDatasetChallengeDataScienceAndMachineLearningUCSD/)
       Outlines models for predicting review score based on text using Naive Bayes and Random Forest. Implemented improvements on Naive Bayes that makes it better suited to skewed datasets. The best model was Random Foresst using bag of words bigrams, it that achieves mean precison of 0.73 and recall of 0.71.
       
-      
   - ## [Round 5 - January 2016](https://engineeringblog.yelp.com/2016/01/yelp-dataset-challenge-round5-winner.html)
     - ### [From Group to Individual Labels using Deep Features](http://mdenil.com/media/papers/2015-deep-multi-instance-learning.pdf)
       Proposed a new method for classifying  instances within a group. It applies this method on Yelp reviews to label sentences within a review and words within sentences with the aid of a convolutional neural network, logistic regression and the bag of words model.
-
+      
+  - ## [Round 6 - August 2016](https://engineeringblog.yelp.com/2016/08/yelp-dataset-challenge-round6-winner.html)
+    - ### Topic Regularized Matrix Factorization for Review Based Rating Prediction
+      Predicts the star rating a user would give using Topic Regularized Matrix Factorization. This method uses topic learned through the use of an [Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) to constrin the learning rate of matrix factorization.
+      
+  - ## [Round 7 - January 2017](https://engineeringblog.yelp.com/2017/01/dataset-round-7-winners-and-announcing-round-9.html)
+    - ### [Semantic Scan: Detecting Subtle, Spatially Localized Events in Text Streams](https://arxiv.org/pdf/1602.04393.pdf)
+      Describes a method for detecting anomalous events through text, such as emerging trends or problems. It makes use of a modified version of an [Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) specifically designed to detect new topics alongside spatial scanning methods to detect anomalous events in emergency complaints and the Yelp dataset as measured by [Hellinger Distances](https://en.wikipedia.org/wiki/Hellinger_distance), spatial overlap and document overlap.
+      
+# Other Studies using the Yelp dataset
+    
+   - ### [Predicting Business Ratings on Yelp](http://cs229.stanford.edu/proj2015/013_report.pdf) 
+    Describes ways to use matrix factorization to predict a user's review score of a buisness based on the buisness's average review score, the average score the user's reviews, global statistics, the categories the buisnesses are assigned to, data from the Yelp social network. The best model gives an error of 1.037 on the test set.
