@@ -38,8 +38,11 @@
   - ## [Round 7 - January 2017](https://engineeringblog.yelp.com/2017/01/dataset-round-7-winners-and-announcing-round-9.html)
     - ### [Semantic Scan: Detecting Subtle, Spatially Localized Events in Text Streams](https://arxiv.org/pdf/1602.04393.pdf)
       Describes a method for detecting anomalous events through text, such as emerging trends or problems. It makes use of a modified version of an [Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) specifically designed to detect new topics alongside spatial scanning methods to detect anomalous events in emergency complaints and the Yelp dataset as measured by [Hellinger Distances](https://en.wikipedia.org/wiki/Hellinger_distance), spatial overlap and document overlap.
+ 
+ - ## [Round 8 - June 2017](https://engineeringblog.yelp.com/2017/06/dataset-round-8-winners.html)
+    - ### [Clustered Model Adaption for Personalized Sentiment Analysis](http://www.cs.virginia.edu/~hw5x/paper/fp1158-gongA.pdf)
+      Used Dirichlet Priors combined with Markov chains to establish the group membership of a user then used global varriables, group varriables and user varriables in a Expectation–Maximization algorithm to predict the user score arriving at a F1 score of 0.901 for positive Yelp reviews, 0.669 for negative Yelp reviews and 0.843 for positive Amazon reviews and 0.547 for negative Amazon reviews.
       
-# Other Studies using the Yelp dataset
-    
+# [Other Studies using the Yelp dataset](https://scholar.google.com/scholar?q=citation%3A+Yelp+Dataset&btnG=&hl=en&as_sdt=0%2C5)
    - ### [Predicting Business Ratings on Yelp](http://cs229.stanford.edu/proj2015/013_report.pdf) 
     Describes ways to use matrix factorization to predict a user's review score of a buisness based on the buisness's average review score, the average score the user's reviews, global statistics, the categories the buisnesses are assigned to, data from the Yelp social network. The best model gives an error of 1.037 on the test set.
