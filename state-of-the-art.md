@@ -48,22 +48,49 @@ The first task that we accomplished together as a team was to search other relev
       Used Dirichlet Priors combined with Markov chains to establish the group membership of a user then used global varriables, group varriables and user varriables in a Expectation–Maximization algorithm to predict the user score arriving at a F1 score of 0.901 for positive Yelp reviews, 0.669 for negative Yelp reviews and 0.843 for positive Amazon reviews and 0.547 for negative Amazon reviews.
       
 # [Other Studies using the Yelp dataset](https://scholar.google.com/scholar?q=citation%3A+Yelp+Dataset&btnG=&hl=en&as_sdt=0%2C5)
-    - ## [Predicting Business Ratings on Yelp](http://cs229.stanford.edu/proj2015/013_report.pdf) 
+ - ## [Predicting Business Ratings on Yelp](http://cs229.stanford.edu/proj2015/013_report.pdf) 
         Describes ways to use matrix factorization to predict a user's review score of a buisness based on the buisness's average review score, the average score the user's reviews, global statistics, the categories the buisnesses are assigned to, data from the Yelp social network. The best model gives an error of 1.037 on the test set.
-    - ## [Predicting the category of the restaurant using reviews and tips and recommend the restaurants based on cuisine preferences](http://cgi.soic.indiana.edu/~arunsank/Yelp-FinalProjectReport.pdf)
+ - ## [Predicting the category of the restaurant using reviews and tips and recommend the restaurants based on cuisine preferences](http://cgi.soic.indiana.edu/~arunsank/Yelp-FinalProjectReport.pdf)
         This approach describes how the reviews are analyzed based on ratings and stars in order to see which words are often used in good ratings (preprocessing step). In order to classify the category of the restaurant, they use Naïve Bayes, Locality Sensitive Hashing. For recommendation step, they use the data about an user and the “behavior data” which is the data associated with the restaurants that the user has previously visited. In this part they use Matrix Factorization Recommender, Item Based Similarity Recommender, Popularity Recommender.
-    - ## [A project made by students from Columbia University and Harvard University](http://www.columbia.edu/~yw2668/yelp.html)
+ - ## [A project made by students from Columbia University and Harvard University](http://www.columbia.edu/~yw2668/yelp.html)
         This project takes 3 approaches: using text mining, they find the most popular food in a restaurant, a food map where they locate the neighbourhood with the best restaurants in the city, and an analysis on how Yelp developed over years in USA.
-    - ## [Restaurants Review Star Prediction for Yelp Dataset](https://cseweb.ucsd.edu/~jmcauley/cse255/reports/fa15/017.pdf)
+ - ## [Restaurants Review Star Prediction for Yelp Dataset](https://cseweb.ucsd.edu/~jmcauley/cse255/reports/fa15/017.pdf)
         In this project, they use linear regression, random forest tree and latent factor model combined with the sentiment analysis.
-    - ## [Eat, Rate, Love Project](https://www.springboard.com/blog/eat-rate-love-an-exploration-of-r-yelp-and-the-search-for-good-indian-food)
+ - ## [Eat, Rate, Love Project](https://www.springboard.com/blog/eat-rate-love-an-exploration-of-r-yelp-and-the-search-for-good-indian-food)
         This project relies on predicting the best indian food restaurant using the Yelp dataset. It is used methods like generating weights on reviewers (it's analysed how many reviews wrote a reviewer) and calculating an "authenticity" rating (the author selects the Indian restaurants and analyses how many Indian people are visiting the location using reviewers data filtered by Indian names). In the end the steps are bound together, and the result is a filter that you can use to select the best restaurant with a type of food.
-    - ## [Trends Found on Round 6 of the Yelp Dataset Challenge](http://www2.rmcil.edu/dataanalytics/v2016/papers/Trends_Found_on_Round_6_of_the_Yelp_Dataset_Challenge.pdf)
+ - ## [Trends Found on Round 6 of the Yelp Dataset Challenge](http://www2.rmcil.edu/dataanalytics/v2016/papers/Trends_Found_on_Round_6_of_the_Yelp_Dataset_Challenge.pdf)
         This article is a study on demographic trends (which bussinesses are the most popular in a town). It is used Hadoop, Hive, PIG and Tableau for managing the big data.
-    - ## [Yelp Dataset Challenge: Review Rating Prediction](https://www.researchgate.net/publication/303331726_Yelp_Dataset_Challenge_Review_Rating_Prediction)
+ - ## [Yelp Dataset Challenge: Review Rating Prediction](https://www.researchgate.net/publication/303331726_Yelp_Dataset_Challenge_Review_Rating_Prediction)
         The author did a research on how can you predict a review rating based on some features that are drawn using unigrams, bigrams, trigrams, Latent Semantic Indexing. For training the model, it is used 4 algorithms: Logistic Regression, Naive Bayes classification, Perceptron and Support Vector Machines.
         The best result was done using Logistic Regression.
-    - ## Other Projects
-        - ### [Predicting a Business’ Star in Yelp from Its Reviews’ Text Alone](https://pdfs.semanticscholar.org/130e/cc92626b32b89a27dbcda7357cd4b18abdc5.pdf)
-        - ### [Predicting the ambiance of restaurants using only the wording of Yelp reviews](https://medium.com/fun-with-data-and-stats/predicting-the-ambiance-of-restaurants-using-only-the-wording-of-yelp-reviews-954413b6d490)
-# 
+ - ## Other Projects
+     - ### [Predicting a Business’ Star in Yelp from Its Reviews’ Text Alone](https://pdfs.semanticscholar.org/130e/cc92626b32b89a27dbcda7357cd4b18abdc5.pdf)
+     - ### [Predicting the ambiance of restaurants using only the wording of Yelp reviews](https://medium.com/fun-with-data-and-stats/predicting-the-ambiance-of-restaurants-using-only-the-wording-of-yelp-reviews-954413b6d490)
+
+The second accomplished task was to look for other sources (other databases) that we can use for our project. What we found are the following:
+
+# Resources available
+ - ## [AMAZON food reviews](http://snap.stanford.edu/data/web-FineFoods.html)
+ - ## [AMAZON moview reviews](http://snap.stanford.edu/data/web-Movies.html)
+ - ## [AMAZON reviews on different categories of products]
+    ### [1](http://snap.stanford.edu/data/web-Amazon.html)
+    ### [2](http://jmcauley.ucsd.edu/data/amazon/)
+ - ## [Mining Quality Phrases from Massive Text Corpora] (https://aminer.org/citation)
+    The authors used this dataset to create a review model.
+ - ## [Moview review data](http://www.cs.cornell.edu/people/pabo/movie-review-data/)
+    ### [Projects done using this dataset](http://www.cs.cornell.edu/people/pabo/movie-review-data/otherexperiments.html)
+ - ## [Large Movie Review Dataset](http://ai.stanford.edu/~amaas//data/sentiment/)
+ - ## [Skytrax User Reviews Dataset](https://github.com/quankiquanki/skytrax-reviews-dataset)
+ - ## [Multi-Domain Sentiment Dataset](http://www.cs.jhu.edu/~mdredze/datasets/sentiment/)
+ - ## [Review data sets for "Latent Aspect Rating Analysis"](http://sifaka.cs.uiuc.edu/~wang296/Data/index.html)
+ - ## [Opinosis Dataset - Topic related review sentences](http://kavita-ganesan.com/opinosis-opinion-dataset)
+    This dataset contains reviews on hotels, cars, products.
+ - ## [OpinRank Dataset - Reviews from TripAdvisor and Edmunds](http://kavita-ganesan.com/entity-ranking-data)
+ - ## [MovieLens Reviews Dataset](https://grouplens.org/datasets/movielens/)
+ - ## [From Amateurs to Connoisseurs: Modeling the Evolution of User Expertise through Online Reviews](https://cseweb.ucsd.edu/~jmcauley/pdfs/www13.pdf)
+ - ## [BeerAdvocate Reviews](http://snap.stanford.edu/data/web-BeerAdvocate.html)
+ - ## [RateBeer Reviews](http://snap.stanford.edu/data/web-RateBeer.html)
+ - ## [CellarTracker Reviews](http://snap.stanford.edu/data/web-CellarTracker.html)
+# Tools available 
+ - ## [Google Trends](https://trends.google.com/trends/)
+ - ## [City Search](http://www.citysearch.com/world)
