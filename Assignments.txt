@@ -1,9 +1,0 @@
-## Yelp Interface
-- Andrei Iacob-Constantin
-## Integrating other APIs
-- Vasile Groza
-## Combining datasets
-- Dorin Andrei Miron
-## Geathering population information
-- Anda Buinoschi
-- Andrei-Constantin Iacob
