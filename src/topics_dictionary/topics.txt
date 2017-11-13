@@ -1,0 +1,17 @@
+atmosphere: music, artwork, decoration, nice, tablecloth, ornament, illumination, designing, modern, flourish, bright, elegant, immaculate, shining, sparkling, delicate, napkin, accespry, art, embroidery, flower, jewel, beam, brilliance, lights, radiance
+food: tacos, chips, pizza, soup, beaf, potatoes, carrot, fries, salad, fusion, compound, seafood, sea, meat
+place: downtown, center, near, sea-side, town, metropolitan, urban, midtown
+staff: bartender, janitor, waitress, chef, responsible, trustful, quick, polite, happy, friendly, hospitable, gentle, active, agile, rapid, room-service, hurried, immediate, instantaneous, bit, second, minutes, hours, hour, ASAP, amiable, gracious, civil, attentive, cordial, pleasant, respectful, thoughtful, sympathetic
+healthyness: fresh, organic, gluten, dairy, fat, alergens, healthy, vegetarian, old, salad, cholesterol, fruit, natural, original, raw, mint, vegan, fruitarian, herbivorous
+value: pricey, low, high, cheap, economical, low-cost, low-priced, reasonable, budget, cut-price, tariff, sale, expensive, costly, valuable, worthy, priceless, sophisticated, noble, fancy, overpriced, upscale
+sound: sound, loud, noise, fuss, rioting, clamor, vibrant, perfect, calm, moderate, quiet, silent, low, intense, ringing, roaring, strident, thundering
+space: crowded, window-side, organised, arranged, tucked, wide
+clients: quiet, calm, silent, polite, peaceful, still, customer, client, neighbour
+dinner: ambiance, drink, pasta, wine, beer, candles, candle, dinner
+breakfast: ambiance, eggs, milk, croissant, coffee, breakfast
+lunch: roast, chicken, bread, tea, pasta, lunch 
+style: modern, ethnic, fast-food, casual, family, fine-dining, brasserie, bistro, buffet, cafe, cafeteria, coffeehouse, pub
+menu: price, category, vegetables, fruit, beef, poultry, seafood, beer
+smell: putrid, noxious, rotting, spoiled, perfumed, fresh, pure, pleasant, airy
+cleanliness: clean, tidy, hygienic, spotless, washed, stainless, sanitation, messy, mess, bugs, bug, mice, mouse, pest, pests
+comfort: chair, furniture, comfortable
